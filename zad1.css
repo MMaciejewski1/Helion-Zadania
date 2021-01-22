@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-size: 29px;
+}
+
+#sievpnprzod {
+  display: block;
+  width: 181px;
+  height: 236px;
+  border: 0px;
+}
+
+.helioninfo img {
+  width: 48px;
+  height: 8px;
+  border: 0px;
+}
+
+table {
+  border: 0;
+  border-spacing: 0;
+  padding: 0;
+  width: 100%;
+}
+
+table td:nth-child(1) {
+  vertical-align: top;
+}
+
+table td:nth-child(2) {
+  width: 181px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=zad1.css.map */

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helion Zadanie 2</title>
+    <link rel="stylesheet" href="zad2.css">
+</head>
+<body>  
+    <h3>Paginacja</h3> 
+    <select id="selectPag"onchange="pag()"><!--paginacja tabeli-->
+        <option>10</option>
+        <option>20</option>
+        <option>50</option>
+        <option>100</option>
+      </select>
+      <div id="pagination"></div></br></br>
+      <h3>Filtrowanie</h3>
+    <input type="text" id="myInput0" onkeyup="filterCol(0)" placeholder="wyszukaj po id"><!--filtrowanie po id-->
+    <input type="text" id="myInput1" onkeyup="filterCol(1)" placeholder="wyszukaj po tytul"><!--filtrowanie po tytule-->
+    <input type="text" id="myInput2" onkeyup="filterCol(2)" placeholder="wyszukaj po autor"><!--filtrowanie po autorze-->
+   
+    <div id="placeForTable"></div><!--tabela-->
+    
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>  <script src="zad2.js"></script>
+    <script> 
+    get_Row();  
+    </script>
+</body>
+</html>
